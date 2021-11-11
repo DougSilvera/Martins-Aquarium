@@ -1,0 +1,50 @@
+header{
+    border: 1px black;
+    background-color: aqua;
+    text-align: center;
+    font-size: larger;
+    padding: 2em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black;
+    text-align: center;
+    background-color: gray;
+
+}
+
+.content {
+    background-color: darkgreen;
+    width: 75%;
+}
+
+.content__fish-list {
+    background-color: lightgreen;
+    padding:2em;
+    margin: 10px;
+}
+
+.content__location-list {
+    background-color: lightsalmon;
+    padding: 2em;
+    margin: 10px
+}
+
+.content__quote-list {
+    background-color: moccasin;
+    padding: 2em;
+    margin: 10px;
+}
+
+.fish_tips {
+    background-color: darkslateblue;
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+.fish-info {
+    background-color: lightseagreen;
+}
